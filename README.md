@@ -6,4 +6,4 @@ Ce projet vise à produire une application pour reconnaître une plante via la c
 
 Cette application sera efficiente en zone humide autour de Saint-Amand.
 
-## documentations ##
+## Liens intéressants ##
