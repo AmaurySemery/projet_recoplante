@@ -8,7 +8,7 @@
 
 Ce projet vise à produire une application pour reconnaître une plante via la caméra d'un smartphone.
 
-Cette application sera efficiente en zone humide autour de Saint-Amand.
+Cette application sera efficiente en zones humides dans les Vallées de la Scarpe et d'Escaut.
 
 ## Liens intéressants ##
 
