@@ -27,4 +27,4 @@ Cette application sera efficiente en zone humide autour de Saint-Amand.
 ## Documentations techniques ##
 
 * [Farmbot France](<https://farmbot.fr/>)
-* [Presse |Farmbot](<https://www.numerama.com/tech/181987-farmbot-une-revolution-open-source-pour-cultiver-bio-sans-effort.html>)
+* [Presse | Farmbot](<https://www.numerama.com/tech/181987-farmbot-une-revolution-open-source-pour-cultiver-bio-sans-effort.html>)
