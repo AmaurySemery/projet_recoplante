@@ -1,5 +1,9 @@
 # projet_recoplante #
 
+<p align="center">
+  <img src="https://www.ramsar.org/sites/default/files/pictures/news/vallees_scarpe_escaut_1.jpg" width="50%" alt="Site Ramsar" title="Les vallées de la Scarpe et de l'Escaut">
+</p>
+
 ## Application de reconnaissance de plantes en zone humide ##
 
 Ce projet vise à produire une application pour reconnaître une plante via la caméra d'un smartphone.
