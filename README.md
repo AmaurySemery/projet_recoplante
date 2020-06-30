@@ -22,4 +22,9 @@ Cette application sera efficiente en zone humide autour de Saint-Amand.
 
 ## Documentations pour le codage ##
 
-* [Projet plant-detection de blenderlab & gabrielburnworth](<https://github.com/blenderlab/plant-detection>)
+* [Projet plant-detection gabrielburnworth (Farmbot)](<https://github.com/blenderlab/plant-detection>)
+
+## Documentations techniques ##
+
+* [Farmbot France](<https://farmbot.fr/>)
+* [Presse |Farmbot](<https://www.numerama.com/tech/181987-farmbot-une-revolution-open-source-pour-cultiver-bio-sans-effort.html>)
