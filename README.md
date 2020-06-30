@@ -19,6 +19,7 @@ Cette application sera efficiente en zone humide autour de Saint-Amand.
 * [SNPN sur l'intégration de la vallée Scarpe/Escaut aux sites Ramsar](<https://www.snpn.com/le-site-des-vallees-de-la-scarpe-et-de-lescaut-une-magnifique-zone-humide-devient-le-50e-site-ramsar-francais/?cn-reloaded=1>)
 * [Site des vallées Scarpe/Escaut | PDF](<http://www.zones-humides.org/sites/default/files/images/asso_ramsarfrance/site2405_valleesscarpeescaut_hd.pdf>)
 * [Site des vallées Scarpe/Escaut](<http://www.pnr-scarpe-escaut.fr/>)
+* [Intérêt des prairies humides pour l'agriculture](<http://www.zones-humides.org/sites/default/files/apca_exe_36_pages_zh-02-04-14_bat_5_0.pdf>)
 
 ## Documentations pour le codage ##
 
