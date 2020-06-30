@@ -12,6 +12,9 @@ Cette application sera efficiente en zone humide autour de Saint-Amand.
 
 ## Liens intéressants ##
 
+* [Informations sur les prairies humides | Chambres d'agriculture Hauts-de-France](<https://hautsdefrance.chambres-agriculture.fr/publications/la-publication-en-detail/actualites/biodiversite-en-pratique-la-flore-patrimoniale-des-prairies-humides-de-picardie/>)
+* [Les actions des chambres d'agriculture Hauts-de-France pour les zones humides](<https://hautsdefrance.chambres-agriculture.fr/actualites/detail-de-lactualite/actualites/zones-humides-les-actions-se-poursuivent/>)
+* [Le regard des chambres d'agriculture Hauts-de-France sur les zones humides](<https://hautsdefrance.chambres-agriculture.fr/techniques-productions/elevage/zones-humides/>)
 * [Critères de définition et de délimitation des zones humides | Légifrance](<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000019151510>)
 * [Critères relatifs aux plantes hygrophiles](<http://www.zones-humides.org/identifier/identifier-2/delimiter-pour-la-reglementation-2/critere-relatif-aux-plantes-hygrophi>)
 * [Géohistoire des zones humides des Vallées de la Scarpe et de l'Escaut](<https://pnr-scarpe-escaut.centredoc.fr/doc_num.php?explnum_id=355>)
