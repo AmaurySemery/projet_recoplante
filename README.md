@@ -12,6 +12,7 @@ Cette application sera efficiente en zone humide autour de Saint-Amand.
 
 ## Liens intéressants ##
 
+* [Critères de définition et de délimitation des zones humides | Légifrance](<https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000019151510>)
 * [Critères relatifs aux plantes hygrophiles](<http://www.zones-humides.org/identifier/identifier-2/delimiter-pour-la-reglementation-2/critere-relatif-aux-plantes-hygrophi>)
 * [Géohistoire des zones humides des Vallées de la Scarpe et de l'Escaut](<https://pnr-scarpe-escaut.centredoc.fr/doc_num.php?explnum_id=355>)
 * [Guide des végétations des zones humides du Nord-pas-de-Calais](<https://www.cbnbl.org/system/files/2018-03/Guide%20des%20v%C3%A9g%C3%A9tations%20des%20zones%20humides%20du%20Nord-Pas-de-Calais.pdf>)
