@@ -1,0 +1,6 @@
+pip install pillow
+pip install lxml
+pip install jupyter
+pip install matplotlib
+pip install opencv-python
+pip install tensorflow
