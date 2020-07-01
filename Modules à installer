@@ -1,6 +1,6 @@
-pip install pillow
-pip install lxml
-pip install jupyter
-pip install matplotlib
-pip install opencv-python
-pip install tensorflow
+pip install pillow # librairie de manipulation d'images, permettant de travailler efficacement dessus
+pip install lxml # permet de travailler sur du xml et du html
+pip install jupyter # application permettant d'exécuter du code python
+pip install matplotlib # permet de tracer des graphes et est utilisé par beaucoup d'autres librairies
+pip install opencv-python # librairie d'analyse d'image qui implémente beaucoup d'algorithmes récents
+pip install tensorflow # librairie de deep-learning de Google
