@@ -39,3 +39,8 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 * [Farmbot France](<https://farmbot.fr/>)
 * [Presse | Farmbot](<https://www.numerama.com/tech/181987-farmbot-une-revolution-open-source-pour-cultiver-bio-sans-effort.html>)
 * [Tutoriel pour identifier les objets avec une caméra de Smartphone](<https://penseeartificielle.fr/mobilenet-ssd-identifier-objets-camera-smartphone/>)
+
+## API utiles ##
+
+* [FlowerChecker](<https://blog.flowerchecker.com/post/181708642213/plantid-plant-identification-api>)
+* [Plant identification | Plant.id](<https://web.plant.id/plant-identification-api/>)
