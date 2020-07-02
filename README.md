@@ -35,6 +35,7 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 ## Documentations techniques ##
 
 * [Quantitative Plante](<https://www.quantitative-plant.org/>)
+* [Deep Learning et agriculture | Agrotic](<https://www.agrotic.org/wp-content/uploads/2018/12/2018_ChaireAgroTIC_DeepLearning_VD2.pdf>)
 * [Webinar PlantCV sur YT](<https://www.youtube.com/watch?v=WCinnxUnqRo>)
 * [Farmbot France](<https://farmbot.fr/>)
 * [Presse | Farmbot](<https://www.numerama.com/tech/181987-farmbot-une-revolution-open-source-pour-cultiver-bio-sans-effort.html>)
