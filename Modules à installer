@@ -1,6 +1,25 @@
+## Modules à installer sur Python ##
+
 pip install pillow # librairie de manipulation d'images, permettant de travailler efficacement dessus
 pip install lxml # permet de travailler sur du xml et du html
 pip install jupyter # application permettant d'exécuter du code python
 pip install matplotlib # permet de tracer des graphes et est utilisé par beaucoup d'autres librairies
 pip install opencv-python # librairie d'analyse d'image qui implémente beaucoup d'algorithmes récents
 pip install tensorflow # librairie de deep-learning de Google
+pip install argparse
+pip install cv2 (a.k.a. OpenCV; some functions require 3.0+, we recommend 3.3+. We install it via the PyPI package opencv-python)
+pip install numpy (requires at least 1.11)
+pip install scikit-image
+pip install setuptools
+pip install scipy
+pip install python-dateutil
+pip install scikit-image
+pip install pandas
+pip install pytest (only used for running tests)
+
+## Modules optionnels mais recommandés ##
+
+pip install conda (Anaconda or Miniconda)
+pip install git
+pip install Jupyter
+pip install SQLite
