@@ -30,6 +30,7 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 ## Documentations pour le codage ##
 
 * [Projet plant-detection gabrielburnworth (Farmbot)](<https://github.com/blenderlab/plant-detection>)
+* [Installations programmes/modules](<https://plantcv.readthedocs.io/en/stable/installation/>)
 
 ## Documentations techniques ##
 
