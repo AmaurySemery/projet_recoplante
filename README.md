@@ -36,6 +36,9 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 ## Documentations techniques ##
 
 * [Quantitative Plante](<https://www.quantitative-plant.org/>)
+* [LifeCLEF 2019 Plant](<https://www.crowdai.org/challenges/lifeclef-2019-plant>)
+* [Pre-trained PlantCLEF models](<http://ptak.felk.cvut.cz/personal/sulcmila/models/LifeCLEF2018/>)
+* [Overview of ExpertLifeCLEF 2018:](<http://ceur-ws.org/Vol-2125/invited_paper_10.pdf>)
 * [Deep Learning et agriculture | Agrotic](<https://www.agrotic.org/wp-content/uploads/2018/12/2018_ChaireAgroTIC_DeepLearning_VD2.pdf>)
 * [Webinar PlantCV sur YT](<https://www.youtube.com/watch?v=WCinnxUnqRo>)
 * [Farmbot France](<https://farmbot.fr/>)
