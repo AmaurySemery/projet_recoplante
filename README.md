@@ -36,6 +36,9 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 ## Documentations techniques ##
 
 * [Quantitative Plante](<https://www.quantitative-plant.org/>)
+* [S'initier au Machine Learning](<https://openclassrooms.com/fr/courses/4011851-initiez-vous-au-machine-learning>)
+* [Construire un modèle statistique](<https://openclassrooms.com/fr/courses/4011851-initiez-vous-au-machine-learning/4120981-construisez-un-modele-statistique>)
+* [TensorFlow, créer et entrainer un modèle, les bases](<https://www.supinfo.com/articles/single/9434-tensorflow-creer-entrainer-modele-bases>)
 * [LifeCLEF 2019 Plant](<https://www.crowdai.org/challenges/lifeclef-2019-plant>)
 * [Pre-trained PlantCLEF models](<http://ptak.felk.cvut.cz/personal/sulcmila/models/LifeCLEF2018/>)
 * [Overview of ExpertLifeCLEF 2018:](<http://ceur-ws.org/Vol-2125/invited_paper_10.pdf>)
