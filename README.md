@@ -32,6 +32,11 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 * [Projet plant-detection gabrielburnworth (Farmbot)](<https://github.com/blenderlab/plant-detection>)
 * [Installations programmes/modules](<https://plantcv.readthedocs.io/en/stable/installation/>)
 * [Application Pl@ntnet avec API en onglet](<https://plantnet.org/>)
+* [Le Deep Learning pas à pas : les concepts (1/2)](<https://www.technologies-ebusiness.com/enjeux-et-tendances/le-deep-learning-pas-a-pas>)
+* [Le Deep Learning pas à pas : l'implémentation (2/2)](<https://www.technologies-ebusiness.com/langages/le-deep-learning-pas-a-pas-limplementation-22>)
+* [Réseaux de neurones en partant de zéro en Python](<Réseaux de neurones en partant de zéro en Python>)
+* [Implémenter un réseau de neurones avec Keras](<https://openclassrooms.com/fr/courses/4470531-classez-et-segmentez-des-donnees-visuelles/5097666-tp-implementez-votre-premier-reseau-de-neurones-avec-keras>)
+* [Cours de programmation neurones et python](<Cours de programmation neurones et python>)
 
 ## Documentations techniques ##
 
@@ -47,6 +52,9 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 * [Farmbot France](<https://farmbot.fr/>)
 * [Presse | Farmbot](<https://www.numerama.com/tech/181987-farmbot-une-revolution-open-source-pour-cultiver-bio-sans-effort.html>)
 * [Tutoriel pour identifier les objets avec une caméra de Smartphone](<https://penseeartificielle.fr/mobilenet-ssd-identifier-objets-camera-smartphone/>)
+* [Introduction autour du deep learning et son application aux IoT - Partie 1](<https://www.technologies-ebusiness.com/enjeux-et-tendances/introduction-autour-deep-learning-application-aux-iot-partie-1>)
+* [Introduction autour du deep learning et son application aux IoT - Partie 2](<https://www.technologies-ebusiness.com/enjeux-et-tendances/introduction-autour-deep-learning-application-aux-iot-partie-2>)
+* [ntroduction autour du deep learning et son application aux IoT - Partie 3](<https://www.technologies-ebusiness.com/enjeux-et-tendances/introduction-autour-deep-learning-application-aux-iot-partie-3>)
 
 ## API utiles ##
 
