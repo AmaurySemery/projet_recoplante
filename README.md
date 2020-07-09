@@ -62,6 +62,7 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 * [Introduction autour du deep learning et son application aux IoT - Partie 1](<https://www.technologies-ebusiness.com/enjeux-et-tendances/introduction-autour-deep-learning-application-aux-iot-partie-1>)
 * [Introduction autour du deep learning et son application aux IoT - Partie 2](<https://www.technologies-ebusiness.com/enjeux-et-tendances/introduction-autour-deep-learning-application-aux-iot-partie-2>)
 * [ntroduction autour du deep learning et son application aux IoT - Partie 3](<https://www.technologies-ebusiness.com/enjeux-et-tendances/introduction-autour-deep-learning-application-aux-iot-partie-3>)
+* [Initiation au Machine Learning avec Python - La théorie](<https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-theorie>)
 
 ## API utiles ##
 
