@@ -14,3 +14,7 @@ python -m pip install cython kivy.deps.glew_dev kivy.deps.sdl2_dev
 python -m pip install kivy.deps.gstreamer_dev --extra-index-url https://kivy.org/downloads/packages/simple/
 python -m pip install C:\master.zip
 python -m pip install https://github.com/kivy/kivy/archive/master.zip
+
+Pour utiliser MIT App Inventor :
+http://sig.fgranotier.info/IMG/pdf/debuter_app_inventor.pdf
+http://code.appinventor.mit.edu/login/
