@@ -26,6 +26,13 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 * [Site des vallées Scarpe/Escaut | PDF](<http://www.zones-humides.org/sites/default/files/images/asso_ramsarfrance/site2405_valleesscarpeescaut_hd.pdf>)
 * [Site des vallées Scarpe/Escaut](<http://www.pnr-scarpe-escaut.fr/>)
 * [Intérêt des prairies humides pour l'agriculture](<http://www.zones-humides.org/sites/default/files/apca_exe_36_pages_zh-02-04-14_bat_5_0.pdf>)
+* [Les Messicoles](<http://www.pnr-scarpe-escaut.fr/sites/default/files/plaqmessicoles_bat.pdf>)
+* [Les mares en Scarpe/Escaut](<http://www.pnr-scarpe-escaut.fr/contenu-standard/une-mare-du-cote-de-chez-vous>)
+* [MAEC : les nouvelles mesures agro-environnementales et climatiques de la PAC](<https://agriculture.gouv.fr/maec-les-nouvelles-mesures-agro-environnementales-et-climatiques-de-la-pac>)
+* [Ce qu'il faut savoir sur les MAEC](<https://nord-pas-de-calais.chambre-agriculture.fr/actualites-agricoles-npdc/lactualite-en-detail/actualites/maec-2019-tout-ce-quil-faut-savoir/>)
+* [Contacts chambre d'agriculture Nord-Pas-De-Calais](<https://nord-pas-de-calais.chambre-agriculture.fr/actualites-agricoles-npdc/lactualite-en-detail/actualites/maec-2020-dates-et-lieux-des-reunions-2/>)
+* [Eligibilité MAEC](<https://nord-pas-de-calais.chambre-agriculture.fr/actualites-agricoles-npdc/lactualite-en-detail/actualites/mesures-maec-2018-etes-vous-eligible/>)
+* [Démarches MAEC](<http://mesdemarches.agriculture.gouv.fr/demarches/exploitation-agricole/s-engager-dans-une-demarche/article/beneficier-de-mesures-agro>)
 
 ## Documentations pour le codage ##
 
