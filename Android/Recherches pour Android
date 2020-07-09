@@ -1,3 +1,7 @@
+Documentation pour appli' web :
+https://fr.wikipedia.org/wiki/Progressive_web_app
+https://www.novaway.fr/blog/tech/3-exemples-pwa
+
 Installer Kivy sur linux :
 sudo add-apt-repository ppa:kivy-team/kivy
 sudo apt-get install python-kivy
@@ -18,3 +22,6 @@ python -m pip install https://github.com/kivy/kivy/archive/master.zip
 Pour utiliser MIT App Inventor :
 http://sig.fgranotier.info/IMG/pdf/debuter_app_inventor.pdf
 http://code.appinventor.mit.edu/login/
+
+Pour utiliser le framework Django :
+https://www.codeflow.site/fr/article/how-to-install-the-django-web-framework-on-ubuntu-18-04
