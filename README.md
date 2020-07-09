@@ -52,3 +52,12 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 
 * [FlowerChecker](<https://blog.flowerchecker.com/post/181708642213/plantid-plant-identification-api>)
 * [Plant identification | Plant.id](<https://web.plant.id/plant-identification-api/>)
+
+## Exemples d'applications de reconnaissance de plantes ##
+
+* [Seek par Inaturalist](<https://www.inaturalist.org/pages/seek_app>)
+* [Pl@ntnet](<https://plantnet.org/>)
+* [Ecobalade](<http://www.ecobalade.fr/>)
+* [Garden Answers](<http://www.gardenanswers.com/>)
+* [Picture This](<https://www.picturethisai.com/>)
+* [Flower Checker](<https://www.picturethisai.com/>)
