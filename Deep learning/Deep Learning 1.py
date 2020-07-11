@@ -18,6 +18,9 @@ loss='sparse_categorical_crossentropy',
 metrics=['accuracy'])
 model.fit(x_train, y_train, epochs=3)
 
+val_lass, val_acc = model.evaluate(x_test, y_test)
+print(val_loss, val_acc)
+
 import matplotlib.pyblot as plt
 
 plt.imshow(x_train[0], cmap = plt.cm.binary)
