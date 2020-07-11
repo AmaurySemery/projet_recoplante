@@ -79,3 +79,7 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 * [Garden Answers](<http://www.gardenanswers.com/>)
 * [Picture This](<https://www.picturethisai.com/>)
 * [Flower Checker](<https://www.picturethisai.com/>)
+
+## Tutoriels ##
+
+* [Deep Learning with Python, TensorFlow, and Keras tutorial](<https://www.youtube.com/watch?v=wQ8BIBpya2k>)
