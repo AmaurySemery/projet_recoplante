@@ -8,7 +8,15 @@ x_train = tf.keras.utils.normalize(x_trains, axis=1)
 x_test = tf.keras.utils.normalize(x_train, axis=1)
 
 model = tf.keras.models.Sequential()
-model.add()
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(128,activation=tf.nn.relu))
+model.add(tf.keras.layers.Dense(128,activation=tf.nn.relu))
+model.add(tf.keras.layers.Dense(10,activation=tf.nn.softmax))
+
+model.compile(optimer='adam',
+loss='sparse_categorical_crossentropy',
+metrics=['accuracy'])
+model.fit(x_train, y_train, epochs=3)
 
 import matplotlib.pyblot as plt
 
