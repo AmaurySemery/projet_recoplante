@@ -27,3 +27,8 @@ plt.imshow(x_train[0], cmap = plt.cm.binary)
 plt.show()
 
 print(x_train[0])
+
+model.save('epic_num_reader.model')
+new_model = tf.keras.models.load_model('epic_num_reader.model')
+predictions = new_model.predict([x_test])
+print(predictions)
