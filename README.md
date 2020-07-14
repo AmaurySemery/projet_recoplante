@@ -12,6 +12,7 @@ Cette application sera efficiente en zones humides dans les Vallées de la Scarp
 
 ## Liens intéressants ##
 
+* [Inscription de sites Ramsar](<https://www.ramsar.org/sites/default/files/documents/library/hbk4-17fr.pdf>)
 * [Fiches zones humides](<http://pole-zhi.org/documents/Actualites/PNR-SE_fiches_zones_humides_2013.pdf>)
 * [Les prairies humides de la Plaine Scarpe-Escaut](<http://www.pnr-scarpe-escaut.fr/sites/default/files/agricuture_et_zh_2015.pdf>)
 * [Informations sur les prairies humides | Chambres d'agriculture Hauts-de-France](<https://hautsdefrance.chambres-agriculture.fr/publications/la-publication-en-detail/actualites/biodiversite-en-pratique-la-flore-patrimoniale-des-prairies-humides-de-picardie/>)
