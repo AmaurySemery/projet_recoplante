@@ -13,9 +13,7 @@ model.add(tf.keras.layers.Dense(128,activation=tf.nn.relu))
 model.add(tf.keras.layers.Dense(128,activation=tf.nn.relu))
 model.add(tf.keras.layers.Dense(10,activation=tf.nn.softmax))
 
-model.compile(optimer='adam',
-loss='sparse_categorical_crossentropy',
-metrics=['accuracy'])
+model.compile(optimizer='adam',loss='sparse_categorical_crossentropy',metrics=['accuracy'])
 model.fit(x_train, y_train, epochs=3)
 
 val_lass, val_acc = model.evaluate(x_test, y_test)
