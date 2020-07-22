@@ -140,6 +140,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 
 ## Liens intéressants ##
 
+* [Sciences Eaux & Territoires](<https://popschoolwillems.slack.com/files/UN6FVEJ4E/F017PTW2QLU/set-revue-services-ecosystemiques-outils.pdf?origin_team=TKM7DMZV4&origin_channel=CP09LMGJU>)
 * [Inscription de sites Ramsar](<https://www.ramsar.org/sites/default/files/documents/library/hbk4-17fr.pdf>)
 * [Fiches zones humides](<http://pole-zhi.org/documents/Actualites/PNR-SE_fiches_zones_humides_2013.pdf>)
 * [Les prairies humides de la Plaine Scarpe-Escaut](<http://www.pnr-scarpe-escaut.fr/sites/default/files/agricuture_et_zh_2015.pdf>)
