@@ -222,3 +222,5 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [Débuter avec Keras](<https://www.actuia.com/keras/>)
 * [Commencer avec keras](<https://riptutorial.com/fr/keras>)
 * [Keras – tutoriel](<https://intelligence-artificielle.agency/keras-tutoriel-1/>)
+* [Tutoriel pour apprendre NumPy](<https://courspython.com/apprendre-numpy.html>)
+* [Démarrer en Numpy/Scipy/Matplotlib](<http://math.mad.free.fr/depot/numpy/essai.html>)
