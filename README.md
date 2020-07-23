@@ -168,6 +168,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 
 ## Documentations pour le codage ##
 
+* [Tutoriel Tensorflow](<https://intelligence-artificielle.agency/tensorflow-tutoriel-1/>)
 * [Projet plant-detection gabrielburnworth (Farmbot)](<https://github.com/blenderlab/plant-detection>)
 * [Installations programmes/modules](<https://plantcv.readthedocs.io/en/stable/installation/>)
 * [Application Pl@ntnet avec API en onglet](<https://plantnet.org/>)
