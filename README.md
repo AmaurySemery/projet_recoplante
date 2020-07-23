@@ -176,6 +176,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [Réseaux de neurones en partant de zéro en Python](<Réseaux de neurones en partant de zéro en Python>)
 * [Implémenter un réseau de neurones avec Keras](<https://openclassrooms.com/fr/courses/4470531-classez-et-segmentez-des-donnees-visuelles/5097666-tp-implementez-votre-premier-reseau-de-neurones-avec-keras>)
 * [Cours de programmation neurones et python](<Cours de programmation neurones et python>)
+* [Librairie NumPy](<https://openclassrooms.com/fr/courses/4452741-decouvrez-les-librairies-python-pour-la-data-science/4740941-plongez-en-detail-dans-la-librairie-numpy>)
 
 ## Documentations techniques ##
 
