@@ -169,6 +169,9 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 ## Documentations pour le codage ##
 
 * [Tutoriel Tensorflow](<https://intelligence-artificielle.agency/tensorflow-tutoriel-1/>)
+* [TensorFlow par BackProp](<https://tensorflow.backprop.fr/>)
+* [Tensorflow pour les débutants](<https://www.tensorflow.org/tutorials>)
+* [Basic classification: Classify images of clothing](<https://www.tensorflow.org/tutorials/keras/classification>)
 * [Projet plant-detection gabrielburnworth (Farmbot)](<https://github.com/blenderlab/plant-detection>)
 * [Installations programmes/modules](<https://plantcv.readthedocs.io/en/stable/installation/>)
 * [Application Pl@ntnet avec API en onglet](<https://plantnet.org/>)
