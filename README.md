@@ -217,4 +217,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [TensorFlow par BackProp](<https://tensorflow.backprop.fr/>)
 * [Tensorflow pour les débutants](<https://www.tensorflow.org/tutorials>)
 * [Basic classification: Classify images of clothing](<https://www.tensorflow.org/tutorials/keras/classification>)
-
+* [Tutoriel Matplotlib](<https://python.developpez.com/tutoriels/graphique-2d/matplotlib/>)
+* [Débuter avec Keras](<https://www.actuia.com/keras/>)
+* [Commencer avec keras](<https://riptutorial.com/fr/keras>)
+* [Keras – tutoriel](<https://intelligence-artificielle.agency/keras-tutoriel-1/>)
