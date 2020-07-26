@@ -47,3 +47,15 @@ for image_batch, label_batch in train_generator:
   break
 image_batch.shape, label_batch.shape
 
+# J'enregistre les étiquettes dans un fichier qui sera téléchargé plus tard
+
+print (train_generator.class_indices)
+
+labels = '\n'.join(sorted(train_generator.class_indices.keys()))
+
+with open('labels.txt', 'w') as f:
+  f.write(labels)
+
+!cat labels.txt
+
+
