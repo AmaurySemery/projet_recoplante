@@ -1,3 +1,5 @@
+# Prototype fait à partir de https://colab.research.google.com/github/tensorflow/examples/blob/master/community/en/flowers_tf_lite.ipynb#scrollTo=_TZTwG7nhm0C
+
 # Je commence avec TensorFlow Lite pour faire de la reconnaissance en Deep Learning sur mobile
 # Le modèle pré-entraîné que je veux utiliser correspond à "Image classification"
 # Sert à identifier des centaines de classes d'objets, notamment des personnes, des animaux, des lieux mais surtout des plantes (ce qui va nous intéresser)
