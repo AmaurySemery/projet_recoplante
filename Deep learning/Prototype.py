@@ -126,3 +126,8 @@ plt.ylim([0,1.0])
 plt.title('Training and Validation Loss')
 plt.xlabel('epoch')
 plt.show()
+
+# Jusque là, on n'a fait qu'entraîner quelques couches au-dessus d'un modèle de base MobileNet V2. Les neurones du réseau pré-entraîné n'ont donc pas été mis à jour.
+# Pour augmenter davantage les performances, on peut entraîner les neurones du modèle pré-entraîné parallèlement à la formation des classements qu'on a ajouté. Le processus de formation forcera les pondérations à être ajustées à partir de cartes d'entités génériques vers des entités associées spécifiquement à notre base de données.
+
+
