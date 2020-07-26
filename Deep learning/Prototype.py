@@ -58,4 +58,16 @@ with open('labels.txt', 'w') as f:
 
 !cat labels.txt
 
+IMG_SHAPE = (IMAGE_SIZE, IMAGE_SIZE, 3)
+
+# Je produits le modèle de base à partir du modèle pré-entraîné MobileNetV2
+
+base_model = tf.keras.applications.MobileNetV2(input_shape=IMG_SHAPE,
+                                              include_top=False,
+                                              weights='imagenet')
+
+# Je gèle la base convolutionnelle créée à partir de l'étape précédente avant de l'utiliser comme extracteur de caractéristiques, puis j'ajoute un classificateur par-dessus.
+
+base_model.trainable = False
+
 
