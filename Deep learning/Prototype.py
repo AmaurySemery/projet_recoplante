@@ -130,4 +130,46 @@ plt.show()
 # Jusque là, on n'a fait qu'entraîner quelques couches au-dessus d'un modèle de base MobileNet V2. Les neurones du réseau pré-entraîné n'ont donc pas été mis à jour.
 # Pour augmenter davantage les performances, on peut entraîner les neurones du modèle pré-entraîné parallèlement à la formation des classements qu'on a ajouté. Le processus de formation forcera les pondérations à être ajustées à partir de cartes d'entités génériques vers des entités associées spécifiquement à notre base de données.
 
+# Pour se faire, il faut déverrouiller les couches initiales du modèle.
+# Pour se faire, il suffit de dégeler le modèle "base_model" et de définir les couches inférieures de manière à ne pas pouvoir être entraînées. Ensuite, on recompile le modèle (nécessaire pour que les modifications prennent effet), puis on reprend l'entraînement.
+
+# Let's take a look to see how many layers are in the base model
+print("Number of layers in the base model: ", len(base_model.layers))
+
+# Fine tune from this layer onwards
+fine_tune_at = 100
+
+# Freeze all the layers before the `fine_tune_at` layer
+for layer in base_model.layers[:fine_tune_at]:
+  layer.trainable =  False
+
+# On compile le modèle en utilisant un taux d'entraînement plus faible.
+
+model.compile(loss='categorical_crossentropy',
+              optimizer = tf.keras.optimizers.Adam(1e-5),
+              metrics=['accuracy'])
+
+model.summary()
+
+print('Number of trainable variables = {}'.format(len(model.trainable_variables)))
+
+# Puis on continue l'entraînement du modèle.
+
+history_fine = model.fit(train_generator,
+                         steps_per_epoch=len(train_generator),
+                         epochs=5,
+                         validation_data=val_generator,
+                         validation_steps=len(val_generator))
+
+# On convertir en TFLite
+# Pour ça, on enregistre le modèle à l'aide de tf.saved_model.save, puis on convertit le modèle enregistré dans un format compatible avec TFLite.
+
+saved_model_dir = 'save/fine_tuning'
+tf.saved_model.save(model, saved_model_dir)
+
+converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_dir)
+tflite_model = converter.convert()
+
+with open('model.tflite', 'wb') as f:
+  f.write(tflite_model)
 
