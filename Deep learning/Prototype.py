@@ -70,4 +70,59 @@ base_model = tf.keras.applications.MobileNetV2(input_shape=IMG_SHAPE,
 
 base_model.trainable = False
 
+# J'ajoute donc une tête de classification
 
+model = tf.keras.Sequential([
+  base_model,
+  tf.keras.layers.Conv2D(32, 3, activation='relu'),
+  tf.keras.layers.Dropout(0.2),
+  tf.keras.layers.GlobalAveragePooling2D(),
+  tf.keras.layers.Dense(5, activation='softmax')
+])
+
+# Je compile le modèle avant de l'entraîner.
+
+model.compile(optimizer=tf.keras.optimizers.Adam(),
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
+
+model.summary()
+
+print('Number of trainable variables = {}'.format(len(model.trainable_variables)))
+
+# J'entraîne le modèle.
+
+epochs = 10
+
+history = model.fit(train_generator,
+                    steps_per_epoch=len(train_generator),
+                    epochs=epochs,
+                    validation_data=val_generator,
+                    validation_steps=len(val_generator))
+
+# J'affiche les courbes d'apprentissage.
+
+acc = history.history['accuracy']
+val_acc = history.history['val_accuracy']
+
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+plt.figure(figsize=(8, 8))
+plt.subplot(2, 1, 1)
+plt.plot(acc, label='Training Accuracy')
+plt.plot(val_acc, label='Validation Accuracy')
+plt.legend(loc='lower right')
+plt.ylabel('Accuracy')
+plt.ylim([min(plt.ylim()),1])
+plt.title('Training and Validation Accuracy')
+
+plt.subplot(2, 1, 2)
+plt.plot(loss, label='Training Loss')
+plt.plot(val_loss, label='Validation Loss')
+plt.legend(loc='upper right')
+plt.ylabel('Cross Entropy')
+plt.ylim([0,1.0])
+plt.title('Training and Validation Loss')
+plt.xlabel('epoch')
+plt.show()
