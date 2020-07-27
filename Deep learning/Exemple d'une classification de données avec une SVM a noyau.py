@@ -153,3 +153,58 @@ grid.fit(X_train_std, y_train)
 print("The optimal parameters are {} with a score of {:.2f}".format(grid.best_params_, grid.best_score_))
 
 # Problème rencontré : "Killed - The kernel process exited. (137) => ça plante au niveau du graphique.
+# Résolution : en faisant attendre le programme, il finit par afficher le résultat "The optimal parameters are {'C': 1.0, 'gamma': 1.0} with a score of 0.86"
+
+# Nous pouvons maintenant évaluer la performance de notre modèle optimisé sur le jeu de test :
+
+# prédire sur le jeu de test avec le modèle optimisé
+
+y_test_pred_cv = grid.decision_function(X_test_std)
+
+
+# construire la courbe ROC du modèle optimisé
+
+fpr_cv, tpr_cv, thr_cv = metrics.roc_curve(y_test, y_test_pred_cv)
+
+
+# calculer l'aire sous la courbe ROC du modèle optimisé
+
+auc_cv = metrics.auc(fpr_cv, tpr_cv)
+
+
+# créer une figure
+
+fig = plt.figure(figsize=(6, 6))
+
+
+# afficher la courbe ROC précédente
+
+plt.plot(fpr, tpr, '-', lw=2, label='gamma=0.01, AUC=%.2f' % auc)
+
+
+# afficher la courbe ROC du modèle optimisé
+
+plt.plot(fpr_cv, tpr_cv, '-', lw=2, label='gamma=%.1e, AUC=%.2f' % \
+
+         (grid.best_params_['gamma'], auc_cv))
+
+         
+
+
+# donner un titre aux axes et au graphique
+
+plt.xlabel('False Positive Rate', fontsize=16)
+
+plt.ylabel('True Positive Rate', fontsize=16)
+
+plt.title('SVM ROC Curve', fontsize=16)
+
+
+# afficher la légende
+
+plt.legend(loc="lower right", fontsize=14)
+
+
+# afficher l'image
+
+plt.show()
