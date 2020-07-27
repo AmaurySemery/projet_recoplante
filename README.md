@@ -224,3 +224,10 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [Keras – tutoriel](<https://intelligence-artificielle.agency/keras-tutoriel-1/>)
 * [Tutoriel pour apprendre NumPy](<https://courspython.com/apprendre-numpy.html>)
 * [Démarrer en Numpy/Scipy/Matplotlib](<http://math.mad.free.fr/depot/numpy/essai.html>)
+
+## Hébergeur d'images ##
+
+* [Choisir le meilleur hébergeur web](<https://www.commentcamarche.net/faq/1624-choisir-le-meilleur-hebergeur-web-gratuit-ou-payant>)
+* [Gandi.net](<https://www.gandi.net/fr/simple-hosting>)
+* [Ionos](<https://www.ionos.fr/hebergement/hebergement-web>)
+* [Casimages](<https://www.casimages.com/>)
