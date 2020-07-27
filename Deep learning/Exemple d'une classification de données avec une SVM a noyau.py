@@ -9,7 +9,7 @@ import numpy as np
 
 import pandas as pd
 
-data = pd.read_csv('winequality-white.csv', sep=';')
+data = pd.read_csv('/home/popschool/Documents/GitHub/winequality-white.csv', sep=';')
 
 
 # créer la matrice de données
@@ -108,4 +108,46 @@ plt.legend(loc="lower right", fontsize=14)
 plt.show()
 
 # Problème : le fichier winequality-white.csv n'a pas été trouvé => il faut aller le chercher pour que ça fonctionne. J'avais eu le même problème avec l'image de la plante en noir et blanc, il fallait trouver l'emplacement sur l'ordinateur.
-# Résolution : Je suis donc allé chercher le fichier et installé sur le disque dur de l'ordinateur Fujitsu prêté par PopSchool. Reproduire la manoeuvre sur un autre pc en allant chercher le fichier ici : https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/ 
+# Résolution : Je suis donc allé chercher le fichier et installé sur le disque dur de l'ordinateur Fujitsu prêté par PopSchool. Reproduire la manoeuvre sur un autre pc en allant chercher le fichier ici : https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/ => on edit le chemin sur le code, pis v'là !
+
+# Nous allons ici utiliser une validation croisée sur le jeu d'entraînement pour sélectionner les valeurs optimales de C et de gamma parmi une grille de valeurs.
+
+# choisir 6 valeurs pour C, entre 1e-2 et 1e3
+
+C_range = np.logspace(-2, 3, 6)
+
+
+# choisir 4 valeurs pour gamma, entre 1e-2 et 10
+
+gamma_range = np.logspace(-2, 1, 4)
+
+
+# grille de paramètres
+
+param_grid = {'C': C_range, 'gamma': gamma_range}
+
+
+# critère de sélection du meilleur modèle
+
+score = 'roc_auc'
+
+
+# initialiser une recherche sur grille
+
+grid = model_selection.GridSearchCV(svm.SVC(kernel='rbf'), 
+
+                                    param_grid, 
+
+                                    cv=5, # 5 folds de validation croisée  
+
+                                    scoring=score)
+
+
+# faire tourner la recherche sur grille
+
+grid.fit(X_train_std, y_train)
+
+
+# afficher les paramètres optimaux
+
+print("The optimal parameters are {} with a score of {:.2f}".format(grid.best_params_, grid.best_score_))
