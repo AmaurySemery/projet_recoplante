@@ -1,3 +1,8 @@
+# Documentation :
+# https://openclassrooms.com/fr/courses/4470406-utilisez-des-modeles-supervises-non-lineaires/4722466-classifiez-vos-donnees-avec-une-svm-a-noyau
+# https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+# https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
+
 import numpy as np
 
 # charger les données
@@ -24,9 +29,7 @@ y_class = np.where(y<6, 0, 1)
 # Avant toute chose, nous allons découper nos données en un jeu d'entraînement (X_train, y_train) et un jeu de test (X_test, y_test).
 
 from sklearn import model_selection
-
 X_train, X_test, y_train, y_test = \
-
     model_selection.train_test_split(X, y_class, test_size=0.3)
     
 # Nous pouvons maintenant standardiser les variables, c'est-à-dire les centrer (ramener leur moyenne à 0) et les réduire (ramener leur écart-type à 1), afin qu'elles se placent toutes à peu près sur la même échelle.
@@ -104,3 +107,4 @@ plt.legend(loc="lower right", fontsize=14)
 
 plt.show()
 
+# Problème : le fichier winequality-white.csv n'a pas été trouvé => il faut aller le chercher pour que ça fonctionne. J'avais eu le même problème avec l'image de la plante en noir et blanc, il fallait trouver l'emplacement sur l'ordinateur. 
