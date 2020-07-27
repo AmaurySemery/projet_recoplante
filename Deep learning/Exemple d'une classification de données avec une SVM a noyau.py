@@ -151,3 +151,5 @@ grid.fit(X_train_std, y_train)
 # afficher les paramètres optimaux
 
 print("The optimal parameters are {} with a score of {:.2f}".format(grid.best_params_, grid.best_score_))
+
+# Problème rencontré : "Killed - The kernel process exited. (137) => ça plante au niveau du graphique.
