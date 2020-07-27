@@ -231,3 +231,5 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [Gandi.net](<https://www.gandi.net/fr/simple-hosting>)
 * [Ionos](<https://www.ionos.fr/hebergement/hebergement-web>)
 * [Casimages](<https://www.casimages.com/>)
+* [Hébergement mutualisé](<http://www.easy-hebergement.fr/hebergement-mutualise>)
+* [Infomaniak](<https://www.infomaniak.com/fr/hebergement/toutes-nos-offres?awc=19231_1595840376_4408f67a4fdda0b43c559a1c8fc927ce>)
