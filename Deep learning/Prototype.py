@@ -6,7 +6,7 @@
 # Mon but va être de faire du "transfer learning", soit de réentraîner le modèle choisi pour lui faire effectuer une autre tâche. Ainsi, je pourrai ajouter de nouvelles catégories d'images.
 
 import tensorflow as tf
-assert tf.__version__.startswith('2')
+# assert tf.__version__.startswith('2')
 
 import os
 import numpy as np
@@ -58,7 +58,7 @@ labels = '\n'.join(sorted(train_generator.class_indices.keys()))
 with open('labels.txt', 'w') as f:
   f.write(labels)
 
-!cat labels.txt
+# !cat labels.txt
 
 IMG_SHAPE = (IMAGE_SIZE, IMAGE_SIZE, 3)
 
