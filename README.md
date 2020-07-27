@@ -224,6 +224,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [Keras – tutoriel](<https://intelligence-artificielle.agency/keras-tutoriel-1/>)
 * [Tutoriel pour apprendre NumPy](<https://courspython.com/apprendre-numpy.html>)
 * [Démarrer en Numpy/Scipy/Matplotlib](<http://math.mad.free.fr/depot/numpy/essai.html>)
+* [Cours Openclassroom pour créer une IA de reconnaissance visuelle en Deep Learning en mode supervisé](<https://openclassrooms.com/fr/courses/4470531-classez-et-segmentez-des-donnees-visuelles>)
 
 ## Hébergeur d'images ##
 
