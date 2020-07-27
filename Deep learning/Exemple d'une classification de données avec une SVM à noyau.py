@@ -54,3 +54,53 @@ classifier = svm.SVC(kernel='rbf', gamma=0.01)
 # Entraîner la SVM sur le jeu d'entraînement
 
 classifier.fit(X_train_std, y_train)
+
+# Comment se comporte-t-elle sur le jeu de test ? Nous allons pour le comprendre regarder la courbe ROC.
+
+# prédire sur le jeu de test
+
+y_test_pred = classifier.decision_function(X_test_std)
+
+
+# construire la courbe ROC
+
+from sklearn import metrics
+
+fpr, tpr, thr = metrics.roc_curve(y_test, y_test_pred)
+
+
+# calculer l'aire sous la courbe ROC
+
+auc = metrics.auc(fpr, tpr)
+
+
+# créer une figure
+
+from matplotlib import pyplot as plt
+
+fig = plt.figure(figsize=(6, 6))
+
+
+# afficher la courbe ROC
+
+plt.plot(fpr, tpr, '-', lw=2, label='gamma=0.01, AUC=%.2f' % auc)
+
+
+# donner un titre aux axes et au graphique
+
+plt.xlabel('False Positive Rate', fontsize=16)
+
+plt.ylabel('True Positive Rate', fontsize=16)
+
+plt.title('SVM ROC Curve', fontsize=16)
+
+
+# afficher la légende
+
+plt.legend(loc="lower right", fontsize=14)
+
+
+# afficher l'image
+
+plt.show()
+
