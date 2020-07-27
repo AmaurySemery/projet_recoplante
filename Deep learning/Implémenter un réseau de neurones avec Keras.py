@@ -103,3 +103,16 @@ for layer in model.layers:
 #[for layer in model.layers:
 
 #   layer.trainable = False]
+
+# Il ne reste plus qu'à compiler le nouveau modèle, puis à l'entraîner  :
+
+# Compiler le modèle 
+
+new_model.compile(loss="categorical_crossentropy", optimizer=optimizers.SGD(lr=0.0001, momentum=0.9), metrics=["accuracy"])
+
+
+# Entraîner sur les données d'entraînement (X_train, y_train)
+
+model_info = new_model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size, verbose=2)
+.
+# Résultat : j'ai à la fin une série de messages avec les file qui paraissent défaillants.
