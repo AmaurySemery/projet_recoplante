@@ -107,4 +107,5 @@ plt.legend(loc="lower right", fontsize=14)
 
 plt.show()
 
-# Problème : le fichier winequality-white.csv n'a pas été trouvé => il faut aller le chercher pour que ça fonctionne. J'avais eu le même problème avec l'image de la plante en noir et blanc, il fallait trouver l'emplacement sur l'ordinateur. 
+# Problème : le fichier winequality-white.csv n'a pas été trouvé => il faut aller le chercher pour que ça fonctionne. J'avais eu le même problème avec l'image de la plante en noir et blanc, il fallait trouver l'emplacement sur l'ordinateur.
+# Résolution : Je suis donc allé chercher le fichier et installé sur le disque dur de l'ordinateur Fujitsu prêté par PopSchool. Reproduire la manoeuvre sur un autre pc en allant chercher le fichier ici : https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/ 
