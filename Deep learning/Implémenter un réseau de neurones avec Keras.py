@@ -1,3 +1,4 @@
+# https://openclassrooms.com/fr/courses/4470531-classez-et-segmentez-des-donnees-visuelles/5097666-tp-implementez-votre-premier-reseau-de-neurones-avec-keras
 # Implémenter un réseau de neurones avec Keras revient à créer un modèle  Sequential  et à l'enrichir avec les couches correspondantes dans le bon ordre. L'étape la plus difficile est de définir correctement les paramètres de chacune des couches – d'où l'importance de bien comprendre l'architecture du réseau !
 
 from keras.models import Sequential
@@ -57,4 +58,30 @@ my_VGG16.add(Dense(1000, activation='softmax'))
 # Pour résoudre le problème, je tente la commande 'pip install keras==2.2.4' en suivant les indications sur ce site : https://stackoverflow.com/questions/62482404/error-while-importing-keras-and-tensorflow
 # C'est un échec
 
-# Pour utiliser le VGG-16 pré-entraîné
+# Pour utiliser le VGG-16 pré-entraîné :
+
+from keras.applications.vgg16 import VGG16
+
+from keras.layers import Dense
+
+
+# Charger VGG-16 pré-entraîné sur ImageNet et sans les couches fully-connected
+
+model = VGG16(weights="imagenet", include_top=False, input_shape=(224, 224, 3))
+
+
+# Récupérer la sortie de ce réseau
+
+x = model.output
+
+
+# Ajouter la nouvelle couche fully-connected pour la classification à 10 classes
+
+predictions = Dense(10, activation='softmax')(x)
+
+
+# Définir le nouveau modèle
+
+new_model = Model(inputs=model.input, outputs=predictions)
+
+# Il y a toujours les messages d'erreurs, mais ça mouline et donne des résultats
