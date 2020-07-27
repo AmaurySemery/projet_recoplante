@@ -208,3 +208,42 @@ plt.legend(loc="lower right", fontsize=14)
 # afficher l'image
 
 plt.show()
+
+# Résultat : un peu lent à charger, mais finit par fonctionner.
+
+# Calculons la matrice de Gram obtenue sur notre jeu d'entraînement quand gamma=0.01 :
+
+from sklearn import metrics
+
+kmatrix = metrics.pairwise.rbf_kernel(X_train_std, gamma=0.01)
+
+# Nous allons réduire cette matrice à ses 100 premières lignes et 100 premières colonnes pour en faciliter la visualisation :
+
+kmatrix100 = kmatrix[:100, :100]
+
+# Nous pouvons maintenant utiliser plt.pcolor pour visualiser cette matrice :
+
+# dessiner la matrice
+
+plt.pcolor(kmatrix100, cmap=matplotlib.cm.PuRd) 
+
+
+# rajouter la légende
+
+plt.colorbar()
+
+
+# retourner l'axe des ordonnées
+
+plt.gca().invert_yaxis()
+
+plt.gca().xaxis.tick_top()
+
+
+# afficher l'image
+
+plt.show()
+
+# Problème : name 'matplotlib' is no defined
+# Non résolu pour cette dernière partie du programme
+# Remarque : la puissance de calculs est considérable et fait trimer l'ordinateur
