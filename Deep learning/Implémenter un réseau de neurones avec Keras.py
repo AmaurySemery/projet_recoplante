@@ -84,4 +84,22 @@ predictions = Dense(10, activation='softmax')(x)
 
 new_model = Model(inputs=model.input, outputs=predictions)
 
-# Il y a toujours les messages d'erreurs, mais ça mouline et donne des résultats
+# Il y a toujours les messages d'erreurs, mais ça mouline et donne des résultats que je n'arrive pas à analyser
+
+# Première stratégie : on entraîne tout le réseau, donc il faut rendre toutes les couches "entraînables" :
+
+for layer in model.layers:
+
+   layer.trainable = True
+   
+# Deuxième stratégie : On entraîne seulement le nouveau classifieur et on ne ré-entraîne pas les autres couches :
+
+#[for layer in model.layers:
+
+#   layer.trainable = False]
+   
+# Troisième stratégie : On entraîne le nouveau classifieur et les couches hautes :
+
+#[for layer in model.layers:
+
+#   layer.trainable = False]
