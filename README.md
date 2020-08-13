@@ -182,6 +182,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 
 ## Documentations techniques ##
 
+* [10 ans de Pl@ntnet](<https://www.cirad.fr/actualites/toutes-les-actualites/communiques-de-presse/2020/consortium-plateforme-science-participative-monde-vegetal>)
 * [Quantitative Plante](<https://www.quantitative-plant.org/>)
 * [S'initier au Machine Learning](<https://openclassrooms.com/fr/courses/4011851-initiez-vous-au-machine-learning>)
 * [Construire un modèle statistique](<https://openclassrooms.com/fr/courses/4011851-initiez-vous-au-machine-learning/4120981-construisez-un-modele-statistique>)
