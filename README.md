@@ -211,7 +211,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [Ecobalade](<http://www.ecobalade.fr/>)
 * [Garden Answers](<http://www.gardenanswers.com/>)
 * [Picture This](<https://www.picturethisai.com/>)
-* [Flower Checker](<https://www.picturethisai.com/>)
+* [Flower Checker](<https://www.flowerchecker.com/>)
 
 ## Tutoriels ##
 
