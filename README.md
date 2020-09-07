@@ -140,6 +140,8 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 
 ## Liens intéressants ##
 
+* [Rapport du WWF sur les Zones Humides](<http://www.zones-humides.org/sites/default/files/rapport_zhwwf-bd.pdf>)
+* [Les prairies humides ou inondables](<http://www.observatoire-biodiversite-centre.fr/les-vall%C3%A9es-alluviales/les-prairies-humides-ou-inondables>)
 * [Sciences Eaux & Territoires](<https://popschoolwillems.slack.com/files/UN6FVEJ4E/F017PTW2QLU/set-revue-services-ecosystemiques-outils.pdf?origin_team=TKM7DMZV4&origin_channel=CP09LMGJU>)
 * [Inscription de sites Ramsar](<https://www.ramsar.org/sites/default/files/documents/library/hbk4-17fr.pdf>)
 * [Fiches zones humides](<http://pole-zhi.org/documents/Actualites/PNR-SE_fiches_zones_humides_2013.pdf>)
@@ -180,6 +182,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 
 ## Documentations techniques ##
 
+* [10 ans de Pl@ntnet](<https://www.cirad.fr/actualites/toutes-les-actualites/communiques-de-presse/2020/consortium-plateforme-science-participative-monde-vegetal>)
 * [Quantitative Plante](<https://www.quantitative-plant.org/>)
 * [S'initier au Machine Learning](<https://openclassrooms.com/fr/courses/4011851-initiez-vous-au-machine-learning>)
 * [Construire un modèle statistique](<https://openclassrooms.com/fr/courses/4011851-initiez-vous-au-machine-learning/4120981-construisez-un-modele-statistique>)
@@ -209,7 +212,7 @@ Parce que ces technologies peuvent susciter questions et craintes, il importe de
 * [Ecobalade](<http://www.ecobalade.fr/>)
 * [Garden Answers](<http://www.gardenanswers.com/>)
 * [Picture This](<https://www.picturethisai.com/>)
-* [Flower Checker](<https://www.picturethisai.com/>)
+* [Flower Checker](<https://www.flowerchecker.com/>)
 
 ## Tutoriels ##
 
